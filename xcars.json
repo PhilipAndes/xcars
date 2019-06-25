@@ -1,0 +1,184 @@
+{
+  "xCars": [
+    {
+      "id": 1,
+      "model": "Cabrio",
+      "img": "img/cabrio1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad.",
+      "headerimg": "img/showcase-model/background-cabrio1.jpg",
+      "models": [
+        {
+          "id": 1,  
+          "name": "XCabrio-1",
+          "img": "img/xcar-cabrio-color/cabrio-black.png",
+          "properties": {
+            "color": "black",
+            "fuel": "Electric",
+            "price": 5000,
+            "year": 2016,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        },
+        {
+          "id": 2, 
+          "name": "XCabrio-2",
+          "img": "img/xcar-cabrio-color/cabrio-red.png",
+          "properties": {
+            "color": "red",
+            "fuel": "Benzine",
+            "price": 7500,
+            "year": 2017,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        },
+        {
+          "id": 3, 
+          "name": "XCabrio-3",
+          "img": "img/xcar-cabrio-color/cabrio-blue.png",
+          "properties": {
+            "color": "blue",
+            "fuel": "Diesel",
+            "price": 10000,
+            "year": 2018,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "model": "Coupe",
+      "img": "img/coupe1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad.",
+      "headerimg": "img/showcase-model/background-coupe2.jpg",
+      "models": [
+        {
+          "id": 1,  
+          "name": "XCoupe-1",
+          "img": "img/xcar-coupe-color/coupe-black.png",
+          "properties": {
+            "color": "black",
+            "fuel": "Electric",
+            "price": 5000,
+            "year": 2016,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        },
+        {
+          "id": 2, 
+          "name": "XCoupe-2",
+          "img": "img/xcar-coupe-color/coupe-red.png",
+          "properties": {
+            "color": "red",
+            "fuel": "Benzine",
+            "price": 7500,
+            "year": 2017,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        },
+        {
+          "id": 3, 
+          "name": "XCoupe-3",
+          "img": "img/xcar-coupe-color/coupe-blue.png",
+          "properties": {
+            "color": "blue",
+            "fuel": "Diesel",
+            "price": 10000,
+            "year": 2018,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "model": "Hatchback",
+      "img": "img/hatchback1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad.",
+      "headerimg": "img/showcase-model/background-hatchback2.jpeg",
+      "models": [
+        {
+          "id": 1,  
+          "name": "XHatchback-1",
+          "img": "img/xcar-hatchback-color/hatchback-black.png",
+          "properties": {
+            "color": "black",
+            "fuel": "Electric",
+            "price": 5000,
+            "year": 2016,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        },
+        {
+          "id": 2, 
+          "name": "XHatchback-2",
+          "img": "img/xcar-hatchback-color/hatchback-red.png",
+          "properties": {
+            "color": "red",
+            "fuel": "Benzine",
+            "price": 7500,
+            "year": 2017,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        },
+        {
+          "id": 3, 
+          "name": "XHatchback-3",
+          "img": "img/xcar-hatchback-color/hatchback-blue.png",
+          "properties": {
+            "color": "blue",
+            "fuel": "Diesel",
+            "price": 10000,
+            "year": 2018,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+          }
+        }
+      ]
+    },
+    {
+    "id": 4,
+    "model": "SUV",
+    "img": "img/suv1.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad.",
+    "headerimg": "img/showcase-model/background-suv1.jpg",
+    "models": [
+      {
+        "id": 1,  
+        "name": "XSUV-1",
+        "img": "img/xcar-suv-color/suv-black.png",
+        "properties": {
+          "color": "black",
+          "fuel": "Electric",
+          "price": 5000,
+          "year": 2016,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+        }
+      },
+      {
+        "id": 2, 
+        "name": "XSUV-2",
+        "img": "img/xcar-suv-color/suv-red.png",
+        "properties": {
+          "color": "red",
+          "fuel": "Benzine",
+          "price": 7500,
+          "year": 2017,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+        }
+      },
+      {
+        "id": 3, 
+        "name": "XSUV-3",
+        "img": "img/xcar-suv-color/suv-blue.png",
+        "properties": {
+          "color": "blue",
+          "fuel": "Diesel",
+          "price": 10000,
+          "year": 2018,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusamus ducimus quidem delectus voluptatum ad."
+        }
+      }
+    ]
+    }
+  ]
+}
