@@ -58,16 +58,16 @@ fetch("./xcars.json")
     document.getElementById('model-header-title').textContent = `The X-Car ${xcarModel.model}`;
 
     //Model Header 2 above default image:
-    document.getElementById('model-header-2').textContent = `X-Car ${xcarModel.model}`;
+    document.getElementById('model-header-2').textContent = `The X-Car ${xcarModel.model}`;
 
     // Table Model Header
-    document.getElementById('model-table-header').textContent = `${xcarModel.model} Models`;
+    document.getElementById('model-table-header').textContent = `Our ${xcarModel.model} Models:`;
 
     // Default model image on load:
     document.getElementById('xCarModelDefault').innerHTML = `
     <div class="d-flex justify-content-center flex-wrap">
 
-      <img src="${xcarModel.img}" class="img-fluid"><img>
+      <img src="${xcarModel.defaultimg}" class="img-fluid"><img>
 
     </div>
     `;
@@ -110,9 +110,9 @@ fetch("./xcars.json")
     
           <div class="d-flex justify-content-center flex-wrap">
     
-            <div id="image" class="cabrio-image"></div>
+            <div id="image"></div>
     
-            <ul class="mt-4 pt-5 list-unstyled output-list">
+            <ul class="list-unstyled output-list">
               <li id="name"></li>
               <li id="color"></li>
               <li id="fuel"></li>

@@ -14,17 +14,18 @@ body {
 }
 
 .navbar .nav-item {
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding-right: 1.4rem;
 }
 
 /*////////////////////SHOWCASE///////////////////*/
 #showcase {
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   box-shadow: 2px 2px 5px #9e1818;
-  min-height: 630px;
+  min-height: 580px;
 }
 
 #showcase .primary-overlay {
@@ -53,11 +54,14 @@ body {
   font-size: 20px;
 }
 
-.cabrio-image {
-  width: "500px"; 
-  height: "300px";
+.output-list {
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
+#model-table-header {
+  margin-top: 20px;
+}
 
 /*////////////////////TABLE///////////////////*/
  table tr {
@@ -75,12 +79,19 @@ body {
 
 
 /*////////////////////Media//////////////////*/
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+  #table {
+    font-size: 10px;
+  }
+
+  #model-table-header {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
   .output-list {
-    margin-top: 0;
+    margin: 0;
+    font-size: 12px;
   }
   
-  .table-header {
-    margin-top: 50px;
-  }
-} */
+}

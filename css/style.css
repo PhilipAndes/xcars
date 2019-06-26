@@ -15,37 +15,37 @@ body {
 }
 
 .navbar .nav-item {
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding-right: 1.4rem; 
 }
 
 
 /*////////////////////SHOWCASE///////////////////*/
 .carousel-item {
-  height: 630px;
+  height: 580px;
 }
 
 .carousel-image-1 {
-  background: url('../img/background1.jpg');
+  background: url('../img/backgroundsAndLogo/background1.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .carousel-image-2 {
-  background: url('../img/background2.jpg');
+  background: url('../img/backgroundsAndLogo/background2.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .carousel-image-3 {
-  background: url('../img/background3.jpg');
+  background: url('../img/backgroundsAndLogo/background3.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #showcase {
   box-shadow: 2px 2px 5px #9e1818;
-  min-height: 630px; 
+  min-height: 580px; 
 }
 
 #showcase .primary-overlay {
@@ -58,8 +58,8 @@ body {
 }
 
 .next-prev-buttons {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .showcase-text {
@@ -90,7 +90,7 @@ body {
 #home-overlay {
   position: relative;
   min-height: 200px;
-  background: url('../img/lights.jpg');
+  background: url('../img/backgroundsAndLogo/lights.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -126,7 +126,7 @@ body {
 }
 
 .xCars img {
-  margin-top: -100px; 
+  margin-top: -100px;
 }
 
 .xCars a {
@@ -160,7 +160,7 @@ body {
 #home-video-overlay {
   position: relative;
   min-height: 200px;
-  background: url('../img/garage.jpg');
+  background: url('../img/backgroundsAndLogo/garage.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -190,10 +190,39 @@ body {
 }
 
 
-/*////////////////////FOOTER///////////////////*/
+/*/////////////Photo Gallery///////////////////*/
 .photo-gallery {
   font-family: 'Poppins', sans-serif;
 }
+
+
+/*///////////// CONTACT PAGE ///////////////////*/
+#contact-header {
+  height: 300px;
+  background: url('../img/backgroundsAndLogo/contactbackground1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  /* background-position: -350px 550px ; */
+  background-size: cover;
+  color: #fff;
+  box-shadow: 2px 2px 5px #9e1818;
+  padding-top: 120px;
+  text-shadow: 0px 0px 5px #000;
+}
+
+.card-border {
+  border: 1px solid rgba(158, 24, 24, 0.125);
+}
+
+#contact .fas {
+  color: #9e1818;
+} 
+
+.contact-button:hover {
+  color: white;
+  background: #9e1818;
+}
+
 
 /*////////////////////FOOTER///////////////////*/
 #main-footer {
@@ -201,4 +230,34 @@ body {
   color: #fff;
   /* margin-top: 100px; */
   box-shadow: -2px -2px 5px #9e1818;
+}
+
+
+/*////////////////////Media//////////////////*/
+@media only screen and (max-width: 600px) {
+
+  .showcase-text {
+    margin-bottom: 170px;
+  }
+
+  #showcase h1{
+    font-size: 25px;
+  }
+
+  #showcase p {
+    font-size: 14px;
+  }
+
+  .next-prev-buttons {
+    width: 25px;
+    height: 25px;
+  }
+
+  #home-overlay h2 {
+    font-size: 25px;
+  }
+
+  #home-overlay p {
+    font-size: 14px;
+  }
 }
