@@ -7,6 +7,7 @@
 [Show XCars webpage](http://xcars.philipandes.com)
 
 - In this project Im building a website about cars.
+- This is the first version were I display the models in a table. 
 
 <b>In this project:</b><br>
 1. HTML
@@ -18,6 +19,5 @@
 7. Bootstrap 4:
   - Carousel
   - Table
-  - 
-8. Dummy images from unsplash
+8. Dummy images from unsplashed. 
 
